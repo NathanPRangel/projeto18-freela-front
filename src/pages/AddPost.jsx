@@ -44,7 +44,7 @@ export default function AddPost() {
 
                 <input
                     name="name"
-                    placeholder="Nome do Doguinho"
+                    placeholder="Nome do Cachorro"
                     type="text"
                     value={nameDog}
                     onChange={e => setNameDog(e.target.value)}
@@ -53,7 +53,7 @@ export default function AddPost() {
 
                 <input
                     name="image"
-                    placeholder="Insira a URL da IMAGEM"
+                    placeholder="Insira a URL da Imagem"
                     type="text"
                     value={image}
                     onChange={e => setImage(e.target.value)}
